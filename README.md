@@ -11,4 +11,11 @@ source header.
 Feel free to contribute, critique, comment, add to it, etc. If we have enough
 patterns, we can start a site that stores these examples.
 
+All examples should run without errors. Just navigate to `src/` folder and execute
+the PHP files:
+
+    php ChainOfCommand.php
+    php Observer.php
+    ...
+
 Keep learning!
