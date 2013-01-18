@@ -1,6 +1,6 @@
 <?php
 /**
- * The decorator pattern
+ * The decorator pattern - version A
  *
  * In the Decorator pattern, a class will add functionality to another class, 
  * without changing the other classes’ structure.
@@ -12,6 +12,9 @@
  * In my example I do this by having BookTitleDecorator make a copy of Book's title 
  * value, which is then changed for display. Depending on the implementation, it 
  * might be better to actually change the original object
+ *
+ * Note: In this version, the decorator does not implement an interface. Please 
+ * refer to DecoratorB.php to see another version of this.
  *
  * http://sourcemaking.com/design_patterns/decorator/php
  */
