@@ -21,4 +21,4 @@ function reverse($chars) {
 $charset = str_split('hello over there this is my place');
 $reversed = reverse($charset);
 
-print_r($reversed);
+print implode($reversed) . PHP_EOL;

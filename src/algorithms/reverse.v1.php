@@ -25,5 +25,4 @@ function reverse($chars) {
 $string = 'twinkle twinkle little star, how I wonder what you are, up above the world so high, like a diamond in the sky';
 $reversed = reverse(str_split($string));
 
-print "Input: ";  print $string;            print PHP_EOL;
-print "Output: "; print implode($reversed); print PHP_EOL;
+print implode($reversed) . PHP_EOL;
