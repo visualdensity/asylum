@@ -24,7 +24,7 @@ better classification for better organization.
  * http://www.careercup.com/
  * http://community.topcoder.com/tc?module=Static&d1=education&d2=overview
 
-Reads
+Books
 -----
 Some books that needs to be purchased
 
