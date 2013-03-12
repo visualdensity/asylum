@@ -1,26 +1,27 @@
 <?php
 /**
- * Classic bubble sort
+ * Bubble Sort v2
  *
- * Nested loop is required because you first need pick the first item (first 
- * loop), then loop through the elements to bubble the item to the top (second 
- * loop). Then go back to the the second item (first loop) and then go again.
+ * Keep track of swapped elements as optimization. Refer to the following 
+ * pseudo code:
  *
- * Pseudo code:
- *
- *   func bubblesort( var a as array )
- *     for i from 1 to N
- *         for j from 0 to N - 1
+ * func bubblesort2( var a as array )
+ *     for i from 2 to N
+ *         swaps = 0
+ *         for j from 0 to N - 2
  *            if a[j] > a[j + 1]
  *               swap( a[j], a[j + 1] )
- *   end func
+ *               swaps = swaps + 1
+ *         if swaps = 0
+ *             break
+ * end func
  *
  * Reference:
- * http://www.algorithmist.com/index.php/Bubble_sort
+ * http://www.algorithmist.com/index.php/Bubble_sort#Optimizations
  */
 
-function bubbleSort($array) {
-
+function bubbleSort($array)
+{
     $time_start = microtime(true);
 
     if( !is_array($array) ) {
@@ -28,21 +29,28 @@ function bubbleSort($array) {
     }
 
     $count = sizeof($array);
-    for( $c=0; $c < $count-1; $c++ ) {
-        for( $i=0; $i < $count-1; $i++) {
-            if($array[$i] > $array[$i+1]) {
-                $temp = $array[$i+1];
 
-                $array[$i+1] = $array[$i];
-                $array[$i]   = $temp;
+    for($i=0; $i<$count-1; $i++) {
+        $swaps = 0;
+        for($j=0; $j<$count-1; $j++) {
+            if( $array[$j] > $array[$j+1] ) {
+                $left = $array[$j];
+                $array[$j] = $array[$j+1];
+                $array[$j+1] = $left;
+
+                $swaps++;
             }
+        }
+
+        if($swaps == 0) {
+            break;
         }
     }
 
     $time_end = microtime(true);
     $time = $time_end - $time_start;
 
-    print 'v1 Time: ' . $time . PHP_EOL;
+    print 'v2 Time: ' . $time . PHP_EOL;
 
     return $array;
 }
