@@ -1,0 +1,203 @@
+==== START ====
+i: 1
+key: 3
+j: 0
+	array[j+1]: 8 > key: 3
+	array[j]: 8	swaped j: -1
+	88834600164783
+outside array[j]: 3
+38834600164783
+
+i: 2
+key: 8
+j: 1
+outside array[j]: 8
+38834600164783
+
+i: 3
+key: 3
+j: 2
+	array[j+1]: 8 > key: 3
+	array[j]: 8	swaped j: 1
+	38884600164783
+	array[j+1]: 8 > key: 3
+	array[j]: 8	swaped j: 0
+	38884600164783
+outside array[j]: 3
+33884600164783
+
+i: 4
+key: 4
+j: 3
+	array[j+1]: 8 > key: 4
+	array[j]: 8	swaped j: 2
+	33888600164783
+	array[j+1]: 8 > key: 4
+	array[j]: 8	swaped j: 1
+	33888600164783
+outside array[j]: 4
+33488600164783
+
+i: 5
+key: 6
+j: 4
+	array[j+1]: 8 > key: 6
+	array[j]: 8	swaped j: 3
+	33488800164783
+	array[j+1]: 8 > key: 6
+	array[j]: 8	swaped j: 2
+	33488800164783
+outside array[j]: 6
+33468800164783
+
+i: 6
+key: 0
+j: 5
+	array[j+1]: 8 > key: 0
+	array[j]: 8	swaped j: 4
+	33468880164783
+	array[j+1]: 8 > key: 0
+	array[j]: 8	swaped j: 3
+	33468880164783
+	array[j+1]: 6 > key: 0
+	array[j]: 6	swaped j: 2
+	33466880164783
+	array[j+1]: 4 > key: 0
+	array[j]: 4	swaped j: 1
+	33446880164783
+	array[j+1]: 3 > key: 0
+	array[j]: 3	swaped j: 0
+	33346880164783
+	array[j+1]: 3 > key: 0
+	array[j]: 3	swaped j: -1
+	33346880164783
+outside array[j]: 0
+03346880164783
+
+i: 7
+key: 0
+j: 6
+	array[j+1]: 8 > key: 0
+	array[j]: 8	swaped j: 5
+	03346888164783
+	array[j+1]: 8 > key: 0
+	array[j]: 8	swaped j: 4
+	03346888164783
+	array[j+1]: 6 > key: 0
+	array[j]: 6	swaped j: 3
+	03346688164783
+	array[j+1]: 4 > key: 0
+	array[j]: 4	swaped j: 2
+	03344688164783
+	array[j+1]: 3 > key: 0
+	array[j]: 3	swaped j: 1
+	03334688164783
+	array[j+1]: 3 > key: 0
+	array[j]: 3	swaped j: 0
+	03334688164783
+outside array[j]: 0
+00334688164783
+
+i: 8
+key: 1
+j: 7
+	array[j+1]: 8 > key: 1
+	array[j]: 8	swaped j: 6
+	00334688864783
+	array[j+1]: 8 > key: 1
+	array[j]: 8	swaped j: 5
+	00334688864783
+	array[j+1]: 6 > key: 1
+	array[j]: 6	swaped j: 4
+	00334668864783
+	array[j+1]: 4 > key: 1
+	array[j]: 4	swaped j: 3
+	00334468864783
+	array[j+1]: 3 > key: 1
+	array[j]: 3	swaped j: 2
+	00333468864783
+	array[j+1]: 3 > key: 1
+	array[j]: 3	swaped j: 1
+	00333468864783
+outside array[j]: 1
+00133468864783
+
+i: 9
+key: 6
+j: 8
+	array[j+1]: 8 > key: 6
+	array[j]: 8	swaped j: 7
+	00133468884783
+	array[j+1]: 8 > key: 6
+	array[j]: 8	swaped j: 6
+	00133468884783
+outside array[j]: 6
+00133466884783
+
+i: 10
+key: 4
+j: 9
+	array[j+1]: 8 > key: 4
+	array[j]: 8	swaped j: 8
+	00133466888783
+	array[j+1]: 8 > key: 4
+	array[j]: 8	swaped j: 7
+	00133466888783
+	array[j+1]: 6 > key: 4
+	array[j]: 6	swaped j: 6
+	00133466688783
+	array[j+1]: 6 > key: 4
+	array[j]: 6	swaped j: 5
+	00133466688783
+outside array[j]: 4
+00133446688783
+
+i: 11
+key: 7
+j: 10
+	array[j+1]: 8 > key: 7
+	array[j]: 8	swaped j: 9
+	00133446688883
+	array[j+1]: 8 > key: 7
+	array[j]: 8	swaped j: 8
+	00133446688883
+outside array[j]: 7
+00133446678883
+
+i: 12
+key: 8
+j: 11
+outside array[j]: 8
+00133446678883
+
+i: 13
+key: 3
+j: 12
+	array[j+1]: 8 > key: 3
+	array[j]: 8	swaped j: 11
+	00133446678888
+	array[j+1]: 8 > key: 3
+	array[j]: 8	swaped j: 10
+	00133446678888
+	array[j+1]: 8 > key: 3
+	array[j]: 8	swaped j: 9
+	00133446678888
+	array[j+1]: 7 > key: 3
+	array[j]: 7	swaped j: 8
+	00133446677888
+	array[j+1]: 6 > key: 3
+	array[j]: 6	swaped j: 7
+	00133446667888
+	array[j+1]: 6 > key: 3
+	array[j]: 6	swaped j: 6
+	00133446667888
+	array[j+1]: 4 > key: 3
+	array[j]: 4	swaped j: 5
+	00133444667888
+	array[j+1]: 4 > key: 3
+	array[j]: 4	swaped j: 4
+	00133444667888
+outside array[j]: 3
+00133344667888
+
+==== END ====

@@ -21,31 +21,20 @@ function insertionSort($array)
     $count = sizeof($array);
 
     for( $i=1; $i<$count; $i++ ) {
-        print 'i: ' . $i . PHP_EOL;
         $key = $array[$i];
         $j = $i-1;
-        print 'key: ' . $key . PHP_EOL;
-        print 'j: ' . $j . PHP_EOL;
 
         while( $j >= 0 && $array[$j] > $key ) {
-            print "\tarray[j+1]: " . $array[$j] . ' > key: '.$key . PHP_EOL;
-            print "\tarray[j]: " . $array[$j];
             $array[$j+1] = $array[$j];
             $j = $j - 1;
-            print "\tswaped j: " . $j . PHP_EOL;
-            print "\t".implode($array) . PHP_EOL;
         }
 
         $array[$j+1] = $key;
-        print "outside array[j]: " . $array[$j+1] . PHP_EOL;
-        print implode($array) . PHP_EOL . PHP_EOL;
     }
 
     return $array;
 }
 
-print '==== START ====' . PHP_EOL;
 $input = str_split('83834600164783');
 insertionSort($input);
 //print_r(insertionSort($input));
-print '==== END ====' . PHP_EOL;
