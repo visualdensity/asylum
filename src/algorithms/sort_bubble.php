@@ -2,6 +2,10 @@
 /**
  * Classic bubble sort
  *
+ * Nested loop is required because you first need pick the first item (first 
+ * loop), then loop through the elements to bubble the item to the top (second 
+ * loop). Then go back to the the second item (first loop) and then go again.
+ *
  * Pseudo code:
  *
  *   func bubblesort( var a as array )
