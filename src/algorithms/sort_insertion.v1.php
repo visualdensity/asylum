@@ -2,6 +2,13 @@
 /**
  * Insertion sort
  *
+ * Pick the second value, then move left incrementally and compare - if left is 
+ * bigger, move the item right. Repeat. 
+ *
+ * Step through is available here (very useful):
+ * http://algorithms.openmymind.net/sort/insertionsort.html
+ *
+ * Pseudo code:
  *  for i from 1 to N
  *      key = a[i]
  *      j = i - 1
@@ -36,5 +43,4 @@ function insertionSort($array)
 }
 
 $input = str_split('83834600164783');
-//insertionSort($input);
 print_r(insertionSort($input));
