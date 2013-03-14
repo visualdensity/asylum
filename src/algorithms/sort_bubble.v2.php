@@ -49,7 +49,7 @@ function bubbleSort($array)
     $time_end = microtime(true);
     $time = $time_end - $time_start;
 
-    print 'v2 Time: ' . $time . PHP_EOL;
+    print 'Bubble v2: ' . $time . PHP_EOL;
 
     return $array;
 }

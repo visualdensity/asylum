@@ -29,7 +29,7 @@ function bubbleSort($array)
     $time_end = microtime(true);
     $time = $time_end - $time_start;
 
-    print 'v4 Time: ' . $time . PHP_EOL;
+    print 'Bubble v4: ' . $time . PHP_EOL;
 
     return $array;
 }
