@@ -36,5 +36,5 @@ function insertionSort($array)
 }
 
 $input = str_split('83834600164783');
-insertionSort($input);
-//print_r(insertionSort($input));
+//insertionSort($input);
+print_r(insertionSort($input));

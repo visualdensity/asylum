@@ -28,17 +28,17 @@ function insertionSort($array)
         print 'j: ' . $j . PHP_EOL;
 
         while( $j >= 0 && $array[$j] > $key ) {
-            print "\tarray[j+1]: " . $array[$j] . ' > key: '.$key . PHP_EOL;
+            print "\tarray[j+1](" . $array[$j] . ') > key ('.$key . ')'. PHP_EOL;
             print "\tarray[j]: " . $array[$j];
             $array[$j+1] = $array[$j];
             $j = $j - 1;
             print "\tswaped j: " . $j . PHP_EOL;
-            print "\t".implode($array) . PHP_EOL;
+            print "\tarray: ".implode($array) . PHP_EOL . PHP_EOL;
         }
 
         $array[$j+1] = $key;
-        print "outside array[j]: " . $array[$j+1] . PHP_EOL;
-        print implode($array) . PHP_EOL . PHP_EOL;
+        print "array[j]: " . $array[$j+1] . PHP_EOL;
+        print "array: " . implode($array) . PHP_EOL . PHP_EOL;
     }
 
     return $array;
