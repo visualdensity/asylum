@@ -2,9 +2,9 @@
 /**
  * Bubble Sort v4
  *
- * Even further optimization with boundary contraction. Consider 
- * the following pseudo code:
- *
+ * Even further optimization with boundary contraction where as each j pass pushes 
+ * another item to the end of the stack (high numbers). So, we reduce the number of 
+ * iteration of j by 1 with each pass since it would have been sorted already.
  */
 
 function bubbleSort($array)
