@@ -9,6 +9,7 @@ Resources
 Random links found on the internet - needs verification and cleanup and possibly
 better classification for better organization.
 
+ * http://rosettacode.org/
  * http://algorithms.openmymind.net/
  * http://www.mpi-inf.mpg.de/~mehlhorn/Toolbox.html
  * http://www.codechef.com/
