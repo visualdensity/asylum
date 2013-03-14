@@ -19,15 +19,15 @@
  * http://www.algorithmist.com/index.php/Bubble_sort
  */
 
-function bubbleSort($array) {
-
-    $time_start = microtime(true);
-
+function bubbleSort($array) 
+{
     if( !is_array($array) ) {
         return false;
     }
 
+    $time_start = microtime(true);
     $count = sizeof($array);
+
     for( $c=0; $c < $count-1; $c++ ) {
         for( $i=0; $i < $count-1; $i++) {
             if($array[$i] > $array[$i+1]) {

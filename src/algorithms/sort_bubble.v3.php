@@ -9,12 +9,11 @@
 
 function bubbleSort($array)
 {
-    $time_start = microtime(true);
-
     if( !is_array($array) ) {
         return false;
     }
 
+    $time_start = microtime(true);
     $count = sizeof($array);
 
     for( $i=0; $i<$count-2; $i++ ) {
