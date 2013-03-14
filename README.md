@@ -1,21 +1,18 @@
-Patterns
---------
+Code Chest
+----------
 
-Repo for storing all the patterns that I often use, new patterns that I discover and
-learned, revisiting patterns as well as additional code coolness that I find.
-
-All examples are based on various resources found online to use as example,
-annotated and sometimes extended with variations. All credits can be found in the
-source header.
+This is a repository of various stuff that I have learned over time and contains
+various code snippets from concrete, albeit simple implementations of various design
+patterns, different types of algorithms and cool little code features in PHP.
 
 Feel free to contribute, critique, comment, add to it, etc. If we have enough
-patterns, we can start a site that stores these examples.
+material, I may start a site that shares this with the rest.
 
-All examples should run without errors. Just navigate to `src/` folder and execute
+All examples should run without errors. Just navigate to `src/` folders and execute
 the PHP files:
 
-    php ChainOfCommand.php
-    php Observer.php
+    php patterns/ChainOfCommand.php
+    php algorithms/sort_bubble.v4.php
     ...
 
 Keep learning!
