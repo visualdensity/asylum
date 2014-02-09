@@ -19,13 +19,11 @@ class QU
 
     public function find($node)
     {
-        $parent = $this->ids[$node];
-
-        if($parent  == $node ) {
-            return $node;
-        } else {
-            return static::find($parent);
+        while( $this->ids[$node] != $node ) {
+            $node = $this->ids[$node];
         }
+
+        return $node;
     }
 
     public function connected($a, $b)
