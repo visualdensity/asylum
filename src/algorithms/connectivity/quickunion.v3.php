@@ -95,12 +95,10 @@ $q->union(9,4);
 $q->dump();
 print "\n";
 
-die;
 print 'Union 2,1: ';
 $q->union(2,1);
 $q->dump();
 print "\n";
-
 
 print "8,9 Connected? " . $q->connected(8,9) . "\n";
 print "8,9 Connected? " . $q->connected(5,4) . "\n";
@@ -123,5 +121,4 @@ print 'Union 7,3: ';
 $q->union(7,3);
 $q->dump();
 print "\n";
-
 
