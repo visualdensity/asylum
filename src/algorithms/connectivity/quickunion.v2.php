@@ -1,4 +1,10 @@
 <?php
+/**
+ * Quick Union v2
+ *
+ * In here, we remove recursion and use a single while loop
+ * to chase the parent until it's the root.
+ */
 
 class QU
 {

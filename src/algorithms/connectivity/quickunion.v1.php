@@ -1,4 +1,10 @@
 <?php
+/**
+ * Quick Union v1
+ *
+ * The first verion that was written immediately
+ * after the demonstraion of quick union operations
+ */
 
 class QU
 {
