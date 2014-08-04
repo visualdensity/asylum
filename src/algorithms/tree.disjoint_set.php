@@ -1,6 +1,6 @@
 <?php
 /**
- * Disjoint sets using hashtable
+ * Disjoint sets using hashtable. This is a test of tags
  */
 
 class Disjoint {
@@ -8,7 +8,7 @@ class Disjoint {
     private $items = array( 'a', 'b', 'c', 'd', 'e' );
     private $parent;
 
-    public function __construct() 
+    public function __construct()
     {
         foreach($this->items as $item) {
             $this->parent[$item] = $item;
@@ -17,7 +17,7 @@ class Disjoint {
         $this->parent['d'] = 'b';
     }
 
-    public function find($needle) 
+    public function find($needle)
     {
         if($this->parent[$needle] == $needle) {
             return $needle;
